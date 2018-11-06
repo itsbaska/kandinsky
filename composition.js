@@ -1,5 +1,3 @@
-// State 5
-
 var canvasHeight = 400;
 var canvasWidth = 400;
 var colors = [
@@ -164,11 +162,7 @@ function setup() {
   );
 
   makeMultiRingedCircle("#000", 50);
-  makeMultiRingedCircle(
-    // color(getRandom(0, 180), getRandom(0, 180), getRandom(0, 180), 50),
-    color(getRandomColor(colors)),
-    100
-  );
+  makeMultiRingedCircle(color(getRandomColor(colors)), 100);
 
   verticalLines();
 }
